@@ -5,12 +5,19 @@
 </head>
 
 <body>
-  <h1>Armonya</h1>
 
-  <button>Up</button>
-  <button>Down</button>
+  <p style="color: blue;"></p>
+
+  <select name="Villain">
+    <option value="Armonya">Armonya</option>
+    <option value="Adonis">Adonis</option>
+    <option value="Octavius" selected>Octavius</option>
+  </select>
+
+  <button id="upButton">Up</button>
+  <button id="downButton">Down</button>
   <button id="rightButton">Right</button>
-  <button>Left</button>
+  <button id="leftButton">Left</button>
   <br />
   <div style="margin-bottom: 140px;"></div>
 
@@ -248,7 +255,7 @@
       <div class='green'></div>
       <div class='green'></div>
       <div class='green'></div>
-      <div class='green'></div>
+      <div class='green active'></div>
       <div class='green'></div>
       <div class='green'></div>
       <div class='green'></div>
@@ -285,13 +292,5 @@
       <div class='green'></div>
     </div>
   </div>
-
-
-
-
-
-
-  <script src="armonya.js"></script>
-</body>
-
-</html>
+  <br /><br /><br />
+  <input type="text" placeholder="Username" />

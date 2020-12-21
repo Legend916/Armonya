@@ -13,5 +13,8 @@ rightButton.onclick = function (e) {
 };
 
 function setActive(x, y) {
+}
+
+function setPElement {
 
 }
